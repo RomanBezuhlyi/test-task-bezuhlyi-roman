@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import MapView from '../views/MapView.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import DetailView from '../views/DetailView.vue'
+import MapView from '../views/MapView.vue'
 
 const routes = [
 	{ path: '/', component: MapView },
@@ -8,6 +8,6 @@ const routes = [
 ]
 
 export default createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes,
 })
