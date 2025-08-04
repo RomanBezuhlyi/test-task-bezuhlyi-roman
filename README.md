@@ -4,11 +4,11 @@
 
 ## 🔧 Технології
 
-- Vue 3 + Vite  
-- Pinia, Vue Router  
-- Leaflet (vue-leaflet)  
-- Turf.js  
-- Nominatim API  
+- Vue 3 + Vite
+- Pinia, Vue Router
+- Leaflet (vue-leaflet)
+- Turf.js
+- Nominatim API
 
 ## 🚀 Запуск
 
@@ -23,8 +23,6 @@ npm run dev
 npm run build
 npm run deploy
 ```
-
-> ⚠ У `vite.config.js` вкажи `base: '/назва-репозиторію/'`
 
 ## 📦 Можливості
 
